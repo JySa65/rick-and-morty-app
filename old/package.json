@@ -20,7 +20,7 @@
   "description": "",
   "author": "Junior Sanchez <r.a.s.g65@gmail.com>",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "install": "^0.12.2",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.8.6",
