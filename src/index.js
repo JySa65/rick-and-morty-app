@@ -1,12 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "materialize-css/dist/css/materialize.css";
-import "@babel/polyfill";
-import './main.scss'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-import App from './App.jsx'
 
-const app = document.querySelector("#app");
-document.querySelector("body").style.background = "#202329";
+ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<App/>, app);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
